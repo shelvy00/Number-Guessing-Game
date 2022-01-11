@@ -1,7 +1,7 @@
 const btn = document.getElementById("btn");
 const output = document.getElementById("outputtext");
 
-const number = [Math.floor(Math.random() * 100)]
+const number = Math.floor(Math.random() * 100)
 
 function myFunction(e) {
 	//btn.addEventListener("click", function(){
